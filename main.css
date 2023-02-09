@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 500;
+}
+.container {
+    /* background: linear-gradient(to bottom right, #B621FE, #1FD1F9); */
+    background: url('./dog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.full-view {
+    min-height: 100vh;
+}
+.container-inner {
+    z-index: 1000;
+    position: relative;
+}
+.company {
+    color: #fff;
+    /* font-family: 'Titan One', cursive; */
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Rubik Vinyl', cursive;
+    display: flex;
+    /* border-bottom: 1px solid white; */
+    /* position: absolute; */
+    width: 70%;
+    /* left: 15%; */
+    /* top: 50px; */
+    font-size: 1.5em;
+    /* color: rgb(0, 149, 255); */
+    color: rgb(0, 149, 255);
+    text-shadow: 2px 2px 2px #fff;
+    justify-content: center;
+    padding: 50px 0px 25px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.company div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    /* margin-left: 50px; */
+    font-size: 2em;
+
+}
+.number {
+    flex-grow: 1;
+    justify-content: flex-end !important;
+    margin-left: auto;
+    font-size: 1.25em;
+}
+.center {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+}
+.heading .green {
+    color: green;
+}
+.heading .pink {
+    color: rgb(255, 92, 119);
+}
+.heading .blue {
+    color: rgb(0, 149, 255);
+}
+.para {
+    color: #fff;
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.para span {
+    border-bottom: 2px solid #fff;
+    /* color: rgb(0, 149, 255); */
+    
+}
+.signup {
+    margin-top: 50px;
+}
+.sign-input {
+    
+}
+.sign-input input {
+    border-radius: 2px;
+    border: none;
+    width: 250px;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+    background: rgba(255,255,255,.5);
+    color: black;   
+}
+.sign-input input::placeholder {
+    color: black;
+}
+.sign-but {
+    margin-top: 25px;
+    color: white;
+    font-size: 1.5em !important;
+    color: #fff !important;
+    /* text-shadow: 2px 2px 2px black; */
+    background: rgb(0, 149, 255) !important;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    font-family: 'Titan One', cursive !important;
+    display: block;
+}
+.sign-but:hover {
+    cursor: pointer;
+}
+.meet-cta {
+    /* margin-bottom: 25px; */
+    margin-top: 75px;
+}
+.meet-but {
+    margin-top: 25px;
+    /* color: rgb(0, 149, 255); */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: white; */
+    border-radius: 5px;
+    /* width: 250px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    font-family: 'Fredoka One', cursive;
+}
+.meet {
+    color: white;
+    z-index: 1000;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    /* display: flex;
+    justify-content: center; */
+}
+.left {
+    /* width: 50%; */
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    line-height: 50px;
+    font-family: 'Comfortaa', cursive;
+    /* background: rgba(255,255,255,.2); */
+}
+.right {
+    /* width: 50%; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    padding: 75px;
+    background: rgba(0,0,0,.5);
+    background: rgb(0, 149, 255, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: white;
+    background: url('./reanadog.jpg');
+    background-size: 100% 100%;
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-top {
+    margin-top: 25px;
+}
+.meet .about {
+    font-size: 1.5em;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Solitreo', cursive; */
+
+    margin-top: 25px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .center {
+        width: 85%;
+    }
+    .heading h1 {
+        font-size: 1.75em;
+    }
+    .right {
+        width: 100%;
+        padding: 50px 100px;
+    }
+    .meet {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sign-input input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .sign-input input:nth-child(1), .sign-input input:nth-child(2) {
+        margin-bottom: 25px;
+    }
+    .meet-but {
+        font-size: 1.25em;
+    }
+    .left {
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+    .meet .about {
+        font-size: 1.25em;
+    }
+    .para {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .right {
+        padding: 25px 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .company {
+        font-size: 1.5em;
+        width: 95%;
+    }
+    .center {
+        margin-top: 0px;
+        width: 90%;
+    }
+    .heading h1 {
+        font-size: 1.5em;
+    }
+    .full-view {
+        min-height: auto;
+    }
+    .para {
+        width: 90%;
+    }
+}

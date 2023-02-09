@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reanna's Pet Sitting Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka+One&family=Rubik+Vinyl&family=Solitreo&family=Titan+One&display=swap" rel="stylesheet">    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="full-view">
+            <div class="container-inner">
+                <div class="company">
+                    <!-- <div class="profile-pic"></div> -->
+                    <div class="name">Reanna's Pet Sitting</div> 
+                    <!-- <div class="number">970.786.9883</div> -->
+                </div>
+                <div class="center">
+                    <div class="center-inner">
+                            <div class="heading">
+                                <!-- <h1>Your <span class="green">Pets</span> Deserve Top Rated <span class="pink">Love</span>. My Service Offers Just That!</h1> -->
+                                <h1>Keep your pet <span class="pink">comfortable</span>, your home <span class="green">safe</span>, and your vacaction <span class="blue">worry free!</span></h1>
+                            </div>
+                            
+                            <div class="para">Fill out your information below so I can contact you and get you set up for a <span>Free Consultation</span>!</div>
+                            <div class="signup">
+                                <div class="sign-input">
+                                    <form method="post" action="contact.php">
+                                        <input type="text" name="name" placeholder="Name">
+                                        <input type="text" name="email" placeholder="Email Address">
+                                        <input type="text" name="phone" placeholder="Phone Number">
+                                        <input type="submit" class="sign-but" value="Signup"></input>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="meet-cta">
+                                <div class="meet-but"><h1>Meet Your Trusted Sitter</h1></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="meet">
+            <div class="left">
+                <div class="left-inner">
+                    <div class="profile-pic"></div>
+                    <div class="m-top">Reanna Philpot</div>
+                    <div>reanna23renee@gmail.com</div>
+                    <div>(970)685-1990
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="about">   
+                    Hi! I am Reanna Philpot, your trusted house sitter. I am so happy you are here. As a young professional from Northern Colorado, I have always had a passion for helping people. For the last 7 years I have been house sitting and caring for many beloved furry family members in the comfort of their own homes. I understand planning vacations and leaving home can be stressful, and want to provide a service that leaves you stress free and one step closer to your destination. I am from Loveland, CO and have a full time job with a reputable law firm in Northern Colorado. I earned my bachelors degree at the University of Northern Colorado where I became passionate about helping small businesses grow and creating rock star teams. In my free time I spend a lot of time reading books, camping, volunteering and socializing with friends and mentors. I look forward to learning more about you and your house sitting needs. One important piece of information to note is I am a full time employee, so these hours will need to be taken into consideration before choosing me as your sitter.
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
