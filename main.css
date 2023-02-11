@@ -9,12 +9,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.3);
     z-index: 500;
 }
 .container {
     /* background: linear-gradient(to bottom right, #B621FE, #1FD1F9); */
-    background: url('./dog.jpg');
+    background: url('./dog2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -172,7 +172,7 @@
 .left {
     /* width: 50%; */
     width: 100%;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
